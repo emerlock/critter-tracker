@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.3",
@@ -20,6 +22,7 @@
     "ag-grid-community": "^23.0.2",
     "ag-grid-vue": "^23.0.2",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
