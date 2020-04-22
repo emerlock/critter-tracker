@@ -21,7 +21,7 @@ new Vue({
       }],
     },
   },
-  mounted() {
+  beforeMount() {
     if (window.localStorage.getItem('userData') == null) {
       this.userData.bugData = bugJson;
       this.userData.fishData = fishJson;

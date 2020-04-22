@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+### Run server
+```
+npm start
+```
+Put a copy-pasta express server in here to have it play nice on heroku
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -36,7 +36,7 @@ export default {
       return jsonUserData.bugData;
     },
   },
-  beforeMount() {
+  mounted() {
     this.items = this.createData();
   },
 };
