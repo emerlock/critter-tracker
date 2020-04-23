@@ -1,23 +1,29 @@
 <template>
   <div id="app">
     <Grid :style="{height: '1000px', width: '1000px', 'margin':'0 auto'}"
-        :data-items="items"
-      :columns="columns">
+          :data-items="items"
+          :sortable="true"
+          :sort="sort"
+          :columns="columns"
+          @sortchange="sortChangeHandler">
     </Grid>
   </div>
 </template>
 
 <script>
+import { orderBy } from '@progress/kendo-data-query';
 import { Grid } from '@progress/kendo-vue-grid';
 
 export default {
   name: 'CritterTable',
   data() {
     return {
-      items: [],
+      sort: [
+        { field: 'Name', dir: 'asc' },
+      ],
       columns: [
         { field: 'Name' },
-        { field: 'Price' },
+        { field: 'Price', type: 'number' },
         { field: 'Location' },
         { field: 'Time' },
         { field: 'Start Date' },
@@ -28,7 +34,17 @@ export default {
   components: {
     Grid,
   },
+  computed: {
+    items: {
+      get() {
+        return orderBy(this.createData(), this.sort);
+      },
+    },
+  },
   methods: {
+    sortChangeHandler(e) {
+      this.sort = e.sort;
+    },
     createData() {
       const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
       let jsonUserData = { bugData: Object, fishData: Object };
