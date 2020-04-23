@@ -14,10 +14,10 @@ new Vue({
   data: {
     userData: {
       bugData: [{
-        Name: '', Price: '', Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Date': '', 'End Date': '',
+        Name: '', Price: 0, Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Date': '', 'End Date': '',
       }],
       fishData: [{
-        Name: '', Price: '', Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Date': '', 'End Date': '',
+        Name: '', Price: 0, Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Date': '', 'End Date': '',
       }],
     },
   },
