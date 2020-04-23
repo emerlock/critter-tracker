@@ -1,10 +1,12 @@
 import bugJson from '@/assets/bug_final.json';
 import fishJson from '@/assets/fish_final.json';
+import Darkmode from 'darkmode-js';
 import Vue from 'vue';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
 
+new Darkmode({ label: '🌓', buttonColorDark: '#fff00' }).showWidget();
 
 Vue.config.productionTip = false;
 

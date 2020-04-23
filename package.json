@@ -22,6 +22,7 @@
     "ag-grid-community": "^23.0.2",
     "ag-grid-vue": "^23.0.2",
     "core-js": "^3.6.4",
+    "darkmode-js": "^1.5.5",
     "express": "^4.17.1",
     "register-service-worker": "^1.7.1",
     "serve-static": "^1.14.1",
