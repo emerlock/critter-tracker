@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="table">
     <Grid :style="{height: '1000px', width: '1000px', 'margin':'0 auto'}"
           :data-items="items"
           :sortable="true"
@@ -13,9 +13,13 @@
 <script>
 import { orderBy } from '@progress/kendo-data-query';
 import { Grid } from '@progress/kendo-vue-grid';
+import * as moment from 'moment';
 
 export default {
   name: 'CritterTable',
+  props: {
+    reportType: String,
+  },
   data() {
     return {
       sort: [
@@ -46,6 +50,23 @@ export default {
       this.sort = e.sort;
     },
     createData() {
+      console.log(this.reportType);
+      if (this.reportType == 'leaving') {
+        const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
+        let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
+        jsonUserData = JSON.parse(jsonUserDataString);
+
+        const { critterData } = jsonUserData;
+        const targetData = [];
+        for (let i = 0; i < critterData.length; i++) {
+          const nextMonth = moment(new Date()).add(1, 'month').format('MMM');
+          const targetDate = critterData[i]['End Date'];
+          if (nextMonth == targetDate) {
+            targetData.push(critterData[i]);
+          }
+        }
+        return targetData;
+      }
       const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
       let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
       jsonUserData = JSON.parse(jsonUserDataString);

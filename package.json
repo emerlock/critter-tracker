@@ -24,6 +24,7 @@
     "core-js": "^3.6.4",
     "darkmode-js": "^1.5.5",
     "express": "^4.17.1",
+    "moment": "^2.24.0",
     "register-service-worker": "^1.7.1",
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
@@ -63,7 +64,10 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "no-plusplus": 1,
+      "eqeqeq": 1
+    }
   },
   "browserslist": [
     "> 1%",

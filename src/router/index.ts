@@ -12,8 +12,8 @@ const routes: Array<RouteConfig> = [
     component: CritterTable,
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/critters-leaving',
+    name: 'Critters Leaving',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
