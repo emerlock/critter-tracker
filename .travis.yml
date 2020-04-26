@@ -5,3 +5,14 @@ install:
   - npm install
 script:
   - npm run lint && npm run build
+branches:
+  only:
+    - master
+    - dev
+deploy:
+  provider: heroku
+  api_key:
+    secure: SgSZSxklOGBfam7eDanD6M/rAq9OsZXUW5bn8TS3MhGY0POysX/voc0wMyfJt9C5Z+Ikv7gf5JFN29At43uNoO3J9zUQsJYDUMlhkDJ4T78e7l54Y/MLPSTQX1SnqZONy8xjjB08vpwC15rhnwmISf3W7/0R+ThVX/LkBPmRkICU5y/laCHnOlkcPXpTb6Idz55+amdlYtlc6EjGt88Xh1qwce7wk0HeSpVasN1F8H0K0Wt9J9i+P8hHt3hV9t191kNY6iJU7LMQgnWvIYT9crCF2VdvCQALXdk7krRcCmWNgfntVdhZm3L2b2BP6ZDHGDydO1ZztbDhjmAmZQ55+QaULgvEHpR/pK47HyssCcEmDhzyHoz97FOi8R5qMxRj4q3Twz+EnvPN43YDiVqPSGDJ/Q3BYvOYmN4QFarv4ne7aVC7jfJyBpgYJwUjSuJSAi+WjuHvul7jDW0NCpoOsgZSOOpeGzIksyE3OQzte2V+HNjGeFxv69lq4dlTBXmqG5Wvta/9K/tq1FxpgpezfuSfXASYYcCV69w0OWeKWA7H9fMnrDLq6wEkcOOZrE/lREDC5iN2k2nJXZoMBGSDqiqV93pZ721SHo/3UnP14AtcPDRY4tYoMFK6JvG7OHRk7ta6b07uf5TrJulk0byWpMk094wyvnikwIBM7qxFiZU=
+  app:
+    master: ac-critter-tracker-prd
+    dev: ac-critter-tracker
