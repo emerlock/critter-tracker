@@ -19,7 +19,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Pale chub",
@@ -41,7 +42,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Crucian carp",
@@ -63,7 +65,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Dace",
@@ -85,7 +88,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Carp",
@@ -107,7 +111,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Koi",
@@ -129,7 +134,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Goldfish",
@@ -151,7 +157,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Pop-eyed goldfish",
@@ -173,7 +180,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Ranchu goldfish",
@@ -195,7 +203,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Killifish",
@@ -217,7 +226,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Aug",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Crawfish",
@@ -239,7 +249,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Soft-shelled turtle",
@@ -261,7 +272,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Snapping Turtle",
@@ -283,7 +295,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Tadpole",
@@ -305,7 +318,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Jul",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Frog",
@@ -327,7 +341,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Aug",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Freshwater goby",
@@ -349,7 +364,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Loach",
@@ -371,7 +387,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "May",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Catfish",
@@ -393,7 +410,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Giant snakehead",
@@ -415,7 +433,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Aug",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Bluegill",
@@ -437,7 +456,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Yellow perch",
@@ -459,7 +479,8 @@
         "Dec": "?",
         "Start Date": "Oct",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Black bass",
@@ -481,7 +502,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Tilapia",
@@ -503,7 +525,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Pike",
@@ -525,7 +548,8 @@
         "Dec": "?",
         "Start Date": "Sep",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Pond smelt",
@@ -547,7 +571,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Feb",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Sweetfish",
@@ -569,7 +594,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Cherry salmon",
@@ -591,7 +617,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Char",
@@ -613,7 +640,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Golden trout",
@@ -635,7 +663,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Stringfish",
@@ -657,7 +686,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Salmon",
@@ -679,7 +709,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "King salmon",
@@ -701,7 +732,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Mitten crab",
@@ -723,7 +755,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Guppy",
@@ -745,7 +778,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Nibble fish",
@@ -767,7 +801,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Angelfish",
@@ -789,7 +824,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Betta",
@@ -811,7 +847,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Neon tetra",
@@ -833,7 +870,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Rainbowfish",
@@ -855,7 +893,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Piranha",
@@ -877,7 +916,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Arowana",
@@ -899,7 +939,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Dorado",
@@ -921,7 +962,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Gar",
@@ -943,7 +985,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Arapaima",
@@ -965,7 +1008,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Saddled bichir",
@@ -987,7 +1031,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Sturgeon",
@@ -1009,7 +1054,8 @@
         "Dec": "?",
         "Start Date": "Sep",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Sea butterfly",
@@ -1031,7 +1077,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Sea horse",
@@ -1053,7 +1100,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Clown fish",
@@ -1075,7 +1123,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Surgeonfish",
@@ -1097,7 +1146,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Butterfly fish",
@@ -1119,7 +1169,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Napoleonfish",
@@ -1141,7 +1192,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Zebra turkeyfish",
@@ -1163,7 +1215,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Blowfish",
@@ -1185,7 +1238,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Feb",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Puffer fish",
@@ -1207,7 +1261,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Anchovy",
@@ -1229,7 +1284,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Horse mackerel",
@@ -1251,7 +1307,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Barred knifejaw",
@@ -1273,7 +1330,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Sea bass",
@@ -1295,7 +1353,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Red snapper",
@@ -1317,7 +1376,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Dab",
@@ -1339,7 +1399,8 @@
         "Dec": "?",
         "Start Date": "Oct",
         "End Date": "Apr",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Olive flounder",
@@ -1361,7 +1422,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Squid",
@@ -1383,7 +1445,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Aug",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Moray eel",
@@ -1405,7 +1468,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Ribbon eel",
@@ -1427,7 +1491,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Tuna",
@@ -1449,7 +1514,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Apr",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Blue marlin",
@@ -1471,7 +1537,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Giant trevally",
@@ -1493,7 +1560,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Mahi-mahi",
@@ -1515,7 +1583,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Ocean sunfish",
@@ -1537,7 +1606,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Ray",
@@ -1559,7 +1629,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Nov",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Saw shark",
@@ -1581,7 +1652,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Hammerhead shark",
@@ -1603,7 +1675,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Great white shark",
@@ -1625,7 +1698,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Whale shark",
@@ -1647,7 +1721,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Suckerfish",
@@ -1669,7 +1744,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Football fish",
@@ -1691,7 +1767,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Mar",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Oarfish",
@@ -1713,7 +1790,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "May",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Barreleye",
@@ -1735,7 +1813,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Coelacanth",
@@ -1757,7 +1836,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "fish"
+        "Critter Type": "fish",
+        "Owned": false
     },
     {
         "Name": "Common butterfly",
@@ -1779,7 +1859,8 @@
         "Dec": "?",
         "Start Date": "Sep",
         "End Date": "Jun",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Yellow butterfly",
@@ -1801,7 +1882,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Tiger butterfly",
@@ -1823,7 +1905,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Peacock butterfly",
@@ -1845,7 +1928,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Jun",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Common bluebottle",
@@ -1867,7 +1951,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Paper kite butterfly",
@@ -1889,7 +1974,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Great purple emperor",
@@ -1911,7 +1997,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Monarch butterfly",
@@ -1933,7 +2020,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Emperor butterfly",
@@ -1955,7 +2043,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Agrias butterfly",
@@ -1977,7 +2066,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Rajah Brooke's birdwing",
@@ -1999,7 +2089,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Queen Alexandra's birdwing",
@@ -2021,7 +2112,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Moth",
@@ -2043,7 +2135,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Atlas moth",
@@ -2065,7 +2158,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Madagascan sunset moth",
@@ -2087,7 +2181,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Long locust",
@@ -2109,7 +2204,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Migratory locust",
@@ -2131,7 +2227,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Rice grasshopper",
@@ -2153,7 +2250,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Grasshopper",
@@ -2175,7 +2273,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Cricket",
@@ -2197,7 +2296,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Bell cricket",
@@ -2219,7 +2319,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Mantis",
@@ -2241,7 +2342,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Orchid mantis",
@@ -2263,7 +2365,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Honeybee",
@@ -2285,7 +2388,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Jul",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Wasp",
@@ -2307,7 +2411,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Brown cicada",
@@ -2329,7 +2434,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Robust cicada",
@@ -2351,7 +2457,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Giant cicada",
@@ -2373,7 +2480,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Walker cicada",
@@ -2395,7 +2503,8 @@
         "Dec": "-",
         "Start Date": "Aug",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Evening cicada",
@@ -2417,7 +2526,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Cicada shell",
@@ -2439,7 +2549,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Red dragonfly",
@@ -2461,7 +2572,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Darner dragonfly",
@@ -2483,7 +2595,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Banded dragonfly",
@@ -2505,7 +2618,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Damselfly",
@@ -2527,7 +2641,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Feb",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Firefly",
@@ -2549,7 +2664,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Jun",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Mole cricket",
@@ -2571,7 +2687,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "May",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Pondskater",
@@ -2593,7 +2710,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Diving beetle",
@@ -2615,7 +2733,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Giant water bug",
@@ -2637,7 +2756,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Stinkbug",
@@ -2659,7 +2779,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Man-faced stink bug",
@@ -2681,7 +2802,8 @@
         "Dec": "-",
         "Start Date": "Mar",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Ladybug",
@@ -2703,7 +2825,8 @@
         "Dec": "-",
         "Start Date": "Oct",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Tiger beetle",
@@ -2725,7 +2848,8 @@
         "Dec": "-",
         "Start Date": "Feb",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Jewel beetle",
@@ -2747,7 +2871,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Violin beetle",
@@ -2769,7 +2894,8 @@
         "Dec": "-",
         "Start Date": "Sep",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Citrus long-horned beetle",
@@ -2791,7 +2917,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Rosalia batesi beetle",
@@ -2813,7 +2940,8 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Blue weevil beetle",
@@ -2835,7 +2963,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Dung beetle",
@@ -2857,7 +2986,8 @@
         "Dec": "?",
         "Start Date": "Dec",
         "End Date": "Feb",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Earth-boring dung beetle",
@@ -2879,7 +3009,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Scarab beetle",
@@ -2901,7 +3032,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Drone beetle",
@@ -2923,7 +3055,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Goliath beetle",
@@ -2945,7 +3078,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Saw stag",
@@ -2967,7 +3101,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Miyama stag",
@@ -2989,7 +3124,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Giant stag",
@@ -3011,7 +3147,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Rainbow stag",
@@ -3033,7 +3170,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Cyclommatus stag",
@@ -3055,7 +3193,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Golden stag",
@@ -3077,7 +3216,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Giraffe stag",
@@ -3099,7 +3239,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Horned dynastid",
@@ -3121,7 +3262,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Horned atlas",
@@ -3143,7 +3285,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Horned elephant",
@@ -3165,7 +3308,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Horned hercules",
@@ -3187,7 +3331,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Aug",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Walking stick",
@@ -3209,7 +3354,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Walking leaf",
@@ -3231,7 +3377,8 @@
         "Dec": "-",
         "Start Date": "Jul",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Bagworm",
@@ -3253,7 +3400,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Ant",
@@ -3275,7 +3423,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Hermit crab",
@@ -3297,7 +3446,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Wharf roach",
@@ -3319,7 +3469,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Fly",
@@ -3341,7 +3492,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Mosquito",
@@ -3363,7 +3515,8 @@
         "Dec": "-",
         "Start Date": "Jun",
         "End Date": "Sep",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Flea",
@@ -3385,7 +3538,8 @@
         "Dec": "-",
         "Start Date": "Apr",
         "End Date": "Nov",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Snail",
@@ -3407,7 +3561,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Pill bug",
@@ -3429,7 +3584,8 @@
         "Dec": "?",
         "Start Date": "Sep",
         "End Date": "Jun",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Centipede",
@@ -3451,7 +3607,8 @@
         "Dec": "?",
         "Start Date": "Sep",
         "End Date": "Jun",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Spider",
@@ -3473,7 +3630,8 @@
         "Dec": "?",
         "Start Date": "Jan",
         "End Date": "Dec",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Tarantula",
@@ -3495,7 +3653,8 @@
         "Dec": "?",
         "Start Date": "Nov",
         "End Date": "Apr",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     },
     {
         "Name": "Scorpion",
@@ -3517,6 +3676,7 @@
         "Dec": "-",
         "Start Date": "May",
         "End Date": "Oct",
-        "Critter Type": "bug"
+        "Critter Type": "bug",
+        "Owned": false
     }
 ]
