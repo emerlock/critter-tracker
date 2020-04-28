@@ -2,16 +2,19 @@
   <div class="table">
     <Grid :style="{height: '1000px', width: '1000px', 'margin':'0 auto'}"
           :data-items="items"
+          :filterable="true"
+          :filter="filter"
+          @filterchange="filterChange"
           :sortable="true"
           :sort="sort"
-          :columns="columns"
-          @sortchange="sortChangeHandler">
+          @sortchange="sortChangeHandler"
+          :columns="columns">
     </Grid>
   </div>
 </template>
 
 <script>
-import { orderBy } from '@progress/kendo-data-query';
+import { orderBy, filterBy } from '@progress/kendo-data-query';
 import { Grid } from '@progress/kendo-vue-grid';
 import * as moment from 'moment';
 
@@ -25,6 +28,12 @@ export default {
       sort: [
         { field: 'Name', dir: 'asc' },
       ],
+      filter: {
+        logic: 'and',
+        filters: [
+          { field: 'Owned', operator: 'neq', value: 'false' },
+        ],
+      },
       columns: [
         { field: 'Name' },
         { field: 'Price', type: 'number' },
@@ -32,6 +41,7 @@ export default {
         { field: 'Time' },
         { field: 'Start Date' },
         { field: 'End Date' },
+        { field: 'Owned', filter: 'boolean' },
       ],
     };
   },
@@ -39,18 +49,20 @@ export default {
     Grid,
   },
   computed: {
-    items: {
-      get() {
-        return orderBy(this.createData(), this.sort);
-      },
+    items() {
+      const orderedData = orderBy(this.createData(), this.sort);
+      const filteredData = filterBy(orderedData, this.filter);
+      return filteredData;
     },
   },
   methods: {
     sortChangeHandler(e) {
       this.sort = e.sort;
     },
+    filterChange(ev) {
+      this.filter = ev.filter;
+    },
     createData() {
-      console.log(this.reportType);
       if (this.reportType == 'leaving') {
         const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
         let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
@@ -59,9 +71,9 @@ export default {
         const { critterData } = jsonUserData;
         const targetData = [];
         for (let i = 0; i < critterData.length; i++) {
-          const nextMonth = moment(new Date()).add(1, 'month').format('MMM');
+          const currentMonth = moment(new Date()).format('MMM');
           const targetDate = critterData[i]['End Date'];
-          if (nextMonth == targetDate) {
+          if (currentMonth === targetDate) {
             targetData.push(critterData[i]);
           }
         }

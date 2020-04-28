@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.3",
+    "@progress/kendo-dropdowns-vue-wrapper": "^2020.1.423",
     "@progress/kendo-theme-default": "^4.17.0",
     "@progress/kendo-theme-material": "^3.14.0",
     "@progress/kendo-vue-animation": "^0.5.2",
