@@ -39,8 +39,6 @@ export default {
         { field: 'Price', type: 'number' },
         { field: 'Location' },
         { field: 'Time' },
-        { field: 'Start Date' },
-        { field: 'End Date' },
         { field: 'Owned', filter: 'boolean' },
       ],
     };
@@ -72,8 +70,8 @@ export default {
         const targetData = [];
         for (let i = 0; i < critterData.length; i++) {
           const currentMonth = moment(new Date()).format('MMM');
-          const targetDate = critterData[i]['End Date'];
-          if (currentMonth === targetDate) {
+          const nextMonth = moment(new Date()).add(1, 'months').format('MMM');
+          if (critterData[i][currentMonth] == '?' && critterData[i][nextMonth] == '-') {
             targetData.push(critterData[i]);
           }
         }
