@@ -38,7 +38,7 @@ export default {
         { field: 'Name' },
         { field: 'Price', type: 'number' },
         { field: 'Location' },
-        { field: 'Time' },
+        { field: 'Time', sortable: false },
         { field: 'Owned', filter: 'boolean' },
       ],
     };
@@ -73,6 +73,30 @@ export default {
           const nextMonth = moment(new Date()).add(1, 'months').format('MMM');
           if (critterData[i][currentMonth] == '?' && critterData[i][nextMonth] == '-') {
             targetData.push(critterData[i]);
+          }
+        }
+        return targetData;
+      } if (this.reportType == 'active') {
+        const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
+        let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
+        jsonUserData = JSON.parse(jsonUserDataString);
+
+        const { critterData } = jsonUserData;
+        const targetData = [];
+        for (let i = 0; i < critterData.length; i++) {
+          const currentMonth = moment(new Date()).format('MMM');
+          if (critterData[i][currentMonth] == '?') {
+            console.log('start time ' + critterData[i]['Start Time']);
+            console.log('end time ' + critterData[i]['End Time']);
+            if (critterData[i]['Start Time'] > critterData[i]['End Time']) {
+              if (critterData[i]['Start Time'] < new Date().getHours() || critterData[i]['End Time'] > new Date().getHours()) {
+                targetData.push(critterData[i]);
+              }
+            } else if (critterData[i]['Start Time'] < critterData[i]['End Time']) {
+              if (critterData[i]['Start Time'] < new Date().getHours() && new Date().getHours() < critterData[i]['End Time']) {
+                targetData.push(critterData[i]);
+              }
+            }
           }
         }
         return targetData;

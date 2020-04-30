@@ -15,7 +15,7 @@ new Vue({
   data: {
     userData: {
       critterData: [{
-        Name: '', Price: 0, Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Date': '', 'End Date': '', 'Critter Type': '',
+        Name: '', Price: 0, Location: '', Time: '', Jan: '', Feb: '', Mar: '', Apr: '', May: '', Jun: '', Jul: '', Aug: '', Sep: '', Oct: '', Nov: '', Dec: '', 'Start Time': 0, 'End Time': 0, 'Critter Type': '',
       }],
     },
   },
@@ -30,7 +30,7 @@ new Vue({
       // Hardcoded solution to update people's data if they do not yet have the critterData added
       // probably eventually simplify everything to that single object
       // will need to update art?
-      if (parsedJson.critterData == null || parsedJson.critterData[0].Owned == null) {
+      if (parsedJson.critterData == null || parsedJson.critterData[0].Owned == null || parsedJson.critterData[0]['Start Time'] == null) {
         this.userData.critterData = critterJson;
         window.localStorage.setItem('userData', JSON.stringify(this.userData));
       } else {

@@ -67,7 +67,8 @@
     },
     "rules": {
       "no-plusplus": 1,
-      "eqeqeq": 1
+      "eqeqeq": 1,
+      "prefer-template": 1
     }
   },
   "browserslist": [

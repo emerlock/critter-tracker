@@ -3,6 +3,7 @@
     <h1>Critter Shitter</h1>
     <div id="nav">
       <router-link to="/">All Critters</router-link> |
+      <router-link to="/critters-active">Critters Active</router-link> |
       <router-link to="/critters-leaving">Critters Leaving!</router-link>
     </div>
     <router-view/>
