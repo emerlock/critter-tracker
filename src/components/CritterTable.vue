@@ -14,6 +14,7 @@
                 <div class="k-filtercell-wrapper">
                   <input  type="text"
                           class="k-textbox"
+                          placeholder="filter"
                           :value="props.value"
                           @input="(ev) => {
                             methods.change(
@@ -25,7 +26,7 @@
                               }
                             );
                           }">
-                  <button class="k-button"
+                  <button class="k-button clear-filter-button"
                           @click="(ev) => {
                     methods.change(
                       {
@@ -46,6 +47,7 @@
                 <div class="k-filtercell-wrapper">
                   <input  type="text"
                           class="k-textbox"
+                          placeholder="filter"
                           :value="props.value"
                           @input="(ev) => {
                             methods.change(
@@ -57,7 +59,7 @@
                               }
                             );
                           }">
-                  <button class="k-button"
+                  <button class="k-button clear-filter-button"
                           @click="(ev) => {
                     methods.change(
                       {

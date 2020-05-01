@@ -4,7 +4,9 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-/* STYLES GO HERE */
+  button.clear-filter-button{
+    display:none !important;
+  }
 }
  
 /* Smartphones (landscape) ----------- */
@@ -23,7 +25,9 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-/* STYLES GO HERE */
+  button.clear-filter-button{
+    display:none !important;
+  }
 }
  
 /* iPads (landscape) ----------- */
