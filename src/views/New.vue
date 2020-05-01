@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h1>Currently Catchable</h1>
-    <CritterTable report-type="active" />
+    <h1>New this month!</h1>
+    <CritterTable report-type="new" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 import CritterTable from '@/components/CritterTable.vue';
 
 export default {
-  name: 'Active',
+  name: 'New',
   components: {
     CritterTable,
   },

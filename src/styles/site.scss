@@ -7,6 +7,11 @@ and (max-device-width : 480px) {
   button.clear-filter-button{
     display:none !important;
   }
+  
+  div.table > div.k-grid {
+    height: 450px !important;
+  }
+
 }
  
 /* Smartphones (landscape) ----------- */
@@ -51,6 +56,10 @@ and (orientation : portrait) {
 and (min-width : 1224px) {
   div.k-grid{
     width: 1000px;
+  }
+
+  div.table > div.k-grid {
+    height: 1000px !important;
   }
 }
  

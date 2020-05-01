@@ -4,7 +4,8 @@
     <div id="nav">
       <router-link to="/">All Critters</router-link> |
       <router-link to="/critters-active">Critters Active</router-link> |
-      <router-link to="/critters-leaving">Critters Leaving!</router-link>
+      <router-link to="/critters-leaving">Critters Leaving!</router-link> |
+      <router-link to="/critters-new">New Critters This Month</router-link>
     </div>
     <router-view/>
   </div>
