@@ -1,6 +1,6 @@
 <template>
   <div class="table">
-    <Grid :style="{height: '1000px', width: '1000px', 'margin':'0 auto'}"
+    <Grid :style="{height: '1000px', 'margin':'0 auto'}"
           :data-items="items"
           :filterable="true"
           :filter="filter"
@@ -9,6 +9,70 @@
           :sort="sort"
           @sortchange="sortChangeHandler"
           :columns="columns">
+          <template v-slot:filterSlotTemplate="{props, methods}">
+              <div class="k-filtercell">
+                <div class="k-filtercell-wrapper">
+                  <input  type="text"
+                          class="k-textbox"
+                          :value="props.value"
+                          @input="(ev) => {
+                            methods.change(
+                              {
+                                operator: 'contains',
+                                field: props.field,
+                                value: ev.target.value,
+                                syntheticEvent: ev
+                              }
+                            );
+                          }">
+                  <button class="k-button"
+                          @click="(ev) => {
+                    methods.change(
+                      {
+                        operator: '',
+                        field: '',
+                        value: '',
+                        syntheticEvent: ev
+                      }
+                    );
+                  }">
+                    Clear
+                  </button>
+                </div>
+              </div>
+          </template>
+          <template v-slot:filterIsEqualTemplate="{props, methods}">
+              <div class="k-filtercell">
+                <div class="k-filtercell-wrapper">
+                  <input  type="text"
+                          class="k-textbox"
+                          :value="props.value"
+                          @input="(ev) => {
+                            methods.change(
+                              {
+                                operator: 'eq',
+                                field: props.field,
+                                value: ev.target.value,
+                                syntheticEvent: ev
+                              }
+                            );
+                          }">
+                  <button class="k-button"
+                          @click="(ev) => {
+                    methods.change(
+                      {
+                        operator: '',
+                        field: '',
+                        value: '',
+                        syntheticEvent: ev
+                      }
+                    );
+                  }">
+                    Clear
+                  </button>
+                </div>
+              </div>
+          </template>
     </Grid>
   </div>
 </template>
@@ -35,11 +99,26 @@ export default {
         ],
       },
       columns: [
-        { field: 'Name' },
-        { field: 'Price', type: 'number' },
-        { field: 'Location' },
-        { field: 'Time', sortable: false },
-        { field: 'Owned', filter: 'boolean' },
+        {
+          field: 'Name',
+          type: 'string',
+          filter: 'text',
+          filterCell: 'filterSlotTemplate',
+        },
+        {
+          field: 'Price',
+          type: 'number',
+          filter: 'numeric',
+          filterCell: 'filterIsEqualTemplate',
+        },
+        {
+          field: 'Location',
+          type: 'string',
+          filter: 'text',
+          filterCell: 'filterSlotTemplate',
+        },
+        { field: 'Time', sortable: false, filterable: false },
+        { field: 'Owned', filter: 'boolean', hidden: true },
       ],
     };
   },
