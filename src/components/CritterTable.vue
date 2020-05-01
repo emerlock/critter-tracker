@@ -86,8 +86,6 @@ export default {
         for (let i = 0; i < critterData.length; i++) {
           const currentMonth = moment(new Date()).format('MMM');
           if (critterData[i][currentMonth] == '?') {
-            console.log('start time ' + critterData[i]['Start Time']);
-            console.log('end time ' + critterData[i]['End Time']);
             if (critterData[i]['Start Time'] > critterData[i]['End Time']) {
               if (critterData[i]['Start Time'] < new Date().getHours() || critterData[i]['End Time'] > new Date().getHours()) {
                 targetData.push(critterData[i]);
@@ -114,7 +112,6 @@ export default {
 </script>
 
 <style lang="scss">
-
-@import '../../node_modules/@progress/kendo-theme-material/dist/all.scss';
-
+  @import '../../node_modules/@progress/kendo-theme-material/dist/all.scss';
+  @import '../styles/dark-theme.scss';
 </style>
