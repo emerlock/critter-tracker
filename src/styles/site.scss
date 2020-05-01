@@ -4,9 +4,15 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-  button.clear-filter-button{
-    display:none !important;
+  
+  div.table > div.k-grid {
+    height: 450px !important;
   }
+
+  button.darkmode-toggle {
+    z-index: 500;
+  }
+
 }
  
 /* Smartphones (landscape) ----------- */
@@ -25,8 +31,9 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-  button.clear-filter-button{
-    display:none !important;
+
+  button.darkmode-toggle {
+    z-index: 500;
   }
 }
  
@@ -51,6 +58,10 @@ and (orientation : portrait) {
 and (min-width : 1224px) {
   div.k-grid{
     width: 1000px;
+  }
+
+  div.table > div.k-grid {
+    height: 1000px !important;
   }
 }
  

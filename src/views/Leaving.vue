@@ -10,7 +10,7 @@
 import CritterTable from '@/components/CritterTable.vue';
 
 export default {
-  name: 'Home',
+  name: 'Leaving',
   components: {
     CritterTable,
   },

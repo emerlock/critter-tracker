@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>All Critters</h1>
     <CritterTable report-type="all" />
   </div>
 </template>

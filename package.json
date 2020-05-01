@@ -30,6 +30,7 @@
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
+    "vue-mobile-detection": "^1.0.0",
     "vue-property-decorator": "^8.4.1",
     "vue-router": "^3.1.6"
   },
@@ -68,7 +69,8 @@
     "rules": {
       "no-plusplus": 1,
       "eqeqeq": 1,
-      "prefer-template": 1
+      "prefer-template": 1,
+      "no-param-reassign": ["error", { "props": false }]
     }
   },
   "browserslist": [

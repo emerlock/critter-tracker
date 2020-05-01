@@ -1,6 +1,6 @@
 <template>
   <div class="table">
-    <Grid :style="{height: '1000px', 'margin':'0 auto'}"
+    <Grid :style="{'margin':'0 auto'}"
           :data-items="items"
           :filterable="true"
           :filter="filter"
@@ -14,7 +14,7 @@
                 <div class="k-filtercell-wrapper">
                   <input  type="text"
                           class="k-textbox"
-                          placeholder="filter"
+                          placeholder="search"
                           :value="props.value"
                           @input="(ev) => {
                             methods.change(
@@ -26,19 +26,6 @@
                               }
                             );
                           }">
-                  <button class="k-button clear-filter-button"
-                          @click="(ev) => {
-                    methods.change(
-                      {
-                        operator: '',
-                        field: '',
-                        value: '',
-                        syntheticEvent: ev
-                      }
-                    );
-                  }">
-                    Clear
-                  </button>
                 </div>
               </div>
           </template>
@@ -59,19 +46,6 @@
                               }
                             );
                           }">
-                  <button class="k-button clear-filter-button"
-                          @click="(ev) => {
-                    methods.change(
-                      {
-                        operator: '',
-                        field: '',
-                        value: '',
-                        syntheticEvent: ev
-                      }
-                    );
-                  }">
-                    Clear
-                  </button>
                 </div>
               </div>
           </template>
@@ -90,6 +64,43 @@ export default {
     reportType: String,
   },
   data() {
+    const columns = [
+      {
+        field: 'Name',
+        type: 'string',
+        filter: 'text',
+        filterCell: 'filterSlotTemplate',
+      },
+      {
+        field: 'Price',
+        type: 'number',
+        filter: 'numeric',
+        filterCell: 'filterIsEqualTemplate',
+      },
+      {
+        field: 'Location',
+        type: 'string',
+        filter: 'text',
+        filterCell: 'filterSlotTemplate',
+      },
+      {
+        field: 'Time',
+        width: '200px',
+        sortable: false,
+        filterable: false,
+      },
+      {
+        field: 'Owned',
+        filter: 'boolean',
+        hidden: true,
+      },
+    ];
+    if (this.$isMobile()) {
+      columns.forEach((item) => {
+        item.width = '200px';
+      });
+    }
+
     return {
       sort: [
         { field: 'Name', dir: 'asc' },
@@ -100,28 +111,7 @@ export default {
           { field: 'Owned', operator: 'neq', value: 'false' },
         ],
       },
-      columns: [
-        {
-          field: 'Name',
-          type: 'string',
-          filter: 'text',
-          filterCell: 'filterSlotTemplate',
-        },
-        {
-          field: 'Price',
-          type: 'number',
-          filter: 'numeric',
-          filterCell: 'filterIsEqualTemplate',
-        },
-        {
-          field: 'Location',
-          type: 'string',
-          filter: 'text',
-          filterCell: 'filterSlotTemplate',
-        },
-        { field: 'Time', sortable: false, filterable: false },
-        { field: 'Owned', filter: 'boolean', hidden: true },
-      ],
+      columns,
     };
   },
   components: {
@@ -142,48 +132,60 @@ export default {
       this.filter = ev.filter;
     },
     createData() {
-      if (this.reportType == 'leaving') {
-        const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
-        let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
-        jsonUserData = JSON.parse(jsonUserDataString);
+      let returnData = {};
+      const targetData = [];
 
-        const { critterData } = jsonUserData;
-        const targetData = [];
-        for (let i = 0; i < critterData.length; i++) {
-          const currentMonth = moment(new Date()).format('MMM');
-          const nextMonth = moment(new Date()).add(1, 'months').format('MMM');
-          if (critterData[i][currentMonth] == '?' && critterData[i][nextMonth] == '-') {
-            targetData.push(critterData[i]);
-          }
-        }
-        return targetData;
-      } if (this.reportType == 'active') {
-        const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
-        let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
-        jsonUserData = JSON.parse(jsonUserDataString);
+      const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
+      const jsonUserData = JSON.parse(jsonUserDataString);
+      const { critterData } = jsonUserData;
 
-        const { critterData } = jsonUserData;
-        const targetData = [];
-        for (let i = 0; i < critterData.length; i++) {
-          const currentMonth = moment(new Date()).format('MMM');
-          if (critterData[i][currentMonth] == '?') {
-            if (critterData[i]['Start Time'] > critterData[i]['End Time']) {
-              if (critterData[i]['Start Time'] < new Date().getHours() || critterData[i]['End Time'] > new Date().getHours()) {
-                targetData.push(critterData[i]);
-              }
-            } else if (critterData[i]['Start Time'] < critterData[i]['End Time']) {
-              if (critterData[i]['Start Time'] < new Date().getHours() && new Date().getHours() < critterData[i]['End Time']) {
-                targetData.push(critterData[i]);
+      switch (this.reportType) {
+        case 'leaving':
+          critterData.forEach((item) => {
+            const currentMonth = moment(new Date()).format('MMM');
+            const nextMonth = moment(new Date()).add(1, 'months').format('MMM');
+            if (item[currentMonth] === '?' && item[nextMonth] === '-') {
+              targetData.push(item);
+            }
+          });
+
+          returnData = targetData;
+          break;
+        case 'new':
+          critterData.forEach((item) => {
+            const currentMonth = moment(new Date()).format('MMM');
+            const lastMonth = moment(new Date()).add(-1, 'months').format('MMM');
+            if (item[currentMonth] === '?' && item[lastMonth] === '-') {
+              targetData.push(item);
+            }
+          });
+
+          returnData = targetData;
+          break;
+        case 'active':
+          critterData.forEach((item) => {
+            const currentMonth = moment(new Date()).format('MMM');
+            if (item[currentMonth] === '?') {
+              if (item['Start Time'] > item['End Time']) {
+                if (item['Start Time'] < new Date().getHours() || item['End Time'] > new Date().getHours()) {
+                  targetData.push(item);
+                }
+              } else if (item['Start Time'] < item['End Time']) {
+                if (item['Start Time'] < new Date().getHours() && new Date().getHours() < item['End Time']) {
+                  targetData.push(item);
+                }
               }
             }
-          }
-        }
-        return targetData;
+          });
+
+          returnData = targetData;
+          break;
+        default:
+          returnData = jsonUserData.critterData;
+          break;
       }
-      const jsonUserDataString = window.localStorage.getItem('userData') || '{}';
-      let jsonUserData = { bugData: Object, fishData: Object, critterData: Object };
-      jsonUserData = JSON.parse(jsonUserDataString);
-      return jsonUserData.critterData;
+
+      return returnData;
     },
   },
   mounted() {
