@@ -49,6 +49,26 @@
                 </div>
               </div>
           </template>
+          <template v-slot:filterTimeTemplate="{props, methods}">
+              <div class="k-filtercell">
+                <div class="k-filtercell-wrapper">
+                  <input  type="text"
+                          class="k-textbox"
+                          placeholder="filter"
+                          :value="props.value"
+                          @input="(ev) => {
+                            methods.change(
+                              {
+                                operator: 'eq',
+                                field: props.field,
+                                value: ev.target.value,
+                                syntheticEvent: ev
+                              }
+                            );
+                          }">
+                </div>
+              </div>
+          </template>
     </Grid>
   </div>
 </template>
@@ -84,10 +104,11 @@ export default {
         filterCell: 'filterSlotTemplate',
       },
       {
-        field: 'Time',
-        width: '200px',
-        sortable: false,
-        filterable: false,
+        title: 'Time Available',
+        children: [
+          { field: 'Start Time', cell: this.customStartTime, filterCell: 'filterTimeTemplate' },
+          { field: 'End Time', cell: this.customEndTime, filterCell: 'filterTimeTemplate' },
+        ],
       },
       {
         field: 'Owned',
@@ -125,6 +146,44 @@ export default {
     },
   },
   methods: {
+    customStartTime(h, tdElement, props, listeners) {
+      let startTime = props.dataItem['Start Time'];
+
+      if (startTime > 12) {
+        startTime -= 12;
+        startTime += ' PM';
+      } else if (startTime === 0) {
+        startTime = '12 AM';
+      } else {
+        startTime += ' AM';
+      }
+      return h('td', {
+        on: {
+          click(e) {
+            listeners.custom(e);
+          },
+        },
+      }, [`${startTime}`]);
+    },
+    customEndTime(h, tdElement, props, listeners) {
+      let endTime = props.dataItem['End Time'];
+
+      if (endTime === 24) {
+        endTime = '12 AM';
+      } else if (endTime > 12) {
+        endTime -= 12;
+        endTime += ' PM';
+      } else {
+        endTime += ' AM';
+      }
+      return h('td', {
+        on: {
+          click(e) {
+            listeners.custom(e);
+          },
+        },
+      }, [`${endTime}`]);
+    },
     sortChangeHandler(e) {
       this.sort = e.sort;
     },
