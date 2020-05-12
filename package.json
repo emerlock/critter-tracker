@@ -25,12 +25,14 @@
     "core-js": "^3.6.4",
     "darkmode-js": "^1.5.5",
     "express": "^4.17.1",
+    "jquery": "^3.5.1",
     "moment": "^2.24.0",
     "register-service-worker": "^1.7.1",
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-mobile-detection": "^1.0.0",
+    "vue-plugin-load-script": "^1.2.0",
     "vue-property-decorator": "^8.4.1",
     "vue-router": "^3.1.6"
   },
@@ -70,7 +72,12 @@
       "no-plusplus": 1,
       "eqeqeq": 1,
       "prefer-template": 1,
-      "no-param-reassign": ["error", { "props": false }]
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ]
     }
   },
   "browserslist": [

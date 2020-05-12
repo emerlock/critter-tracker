@@ -2,6 +2,7 @@ import critterJson from '@/json/all_critter.json';
 import Darkmode from 'darkmode-js';
 import VueMobileDetection from 'vue-mobile-detection';
 import Vue from 'vue';
+import LoadScript from 'vue-plugin-load-script';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
@@ -11,6 +12,8 @@ new Darkmode({ label: '🌓', buttonColorDark: '#fff00' }).showWidget();
 
 Vue.config.productionTip = false;
 Vue.use(VueMobileDetection);
+Vue.use(LoadScript);
+
 
 new Vue({
   router,
