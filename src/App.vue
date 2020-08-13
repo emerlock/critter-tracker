@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Critter Shitter</h1>
+    <h1>Critter Tracker</h1>
     <div id="nav">
       <router-link to="/">All Critters</router-link> |
       <router-link to="/critters-active">Critters Active</router-link> |
